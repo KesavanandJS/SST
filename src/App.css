@@ -1,0 +1,141 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5dc; /* Beige background color */
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.container {
+  padding: 0 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.btn {
+  background-color: #8b7355; /* Warm brown that complements beige */
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 30px; /* Rounded buttons */
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(139, 115, 85, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.btn:hover {
+  background-color: #6b5642;
+  box-shadow: 0 4px 8px rgba(232, 231, 230, 0.4);
+  transform: translateY(-2px);
+  color: white; /* Maintaining the same text color on hover */
+}
+
+.btn:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 3px rgba(107, 86, 66, 0.4);
+}
+
+/* White text classes for specific sections */
+.hero-content h1,
+.hero-content p,
+.footer-section h3,
+.footer-section p,
+.footer-section li,
+.footer-section a,
+.welcome-heading,
+.quality-text,
+.company-name,
+.company-tagline,
+.quick-links-title,
+.quick-links-list a,
+.contact-info-title,
+.contact-info-text {
+  color: #ffffff;
+}
+
+/* Specific style for footer links to ensure visibility */
+.footer-section a:hover {
+  color: #f5f5dc; /* Beige color on hover for contrast */
+  text-decoration: underline;
+}
+
+/* Text styling throughout the website */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Georgia', serif;
+  color: #5f4b32;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: 0.8em;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p, li, span, a, button, input, textarea {
+  font-family: 'Open Sans', sans-serif;
+  color: #5f4b32;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+a {
+  color: #8b7355;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  color: #6b5642;
+  text-decoration: underline;
+}
+
+/* Secondary button style */
+.btn-outline {
+  background-color: transparent;
+  border: 2px solid #8b7355;
+  color: #8b7355;
+}
+
+.btn-outline:hover {
+  background-color: #8b7355;
+  color: white;
+}
+
+/* Additional color classes to use throughout the site */
+.text-primary {
+  color: #8b7355; /* Primary text color - warm brown */
+}
+
+.text-secondary {
+  color: #5f4b32; /* Secondary text color - darker brown */
+}
+
+.bg-accent {
+  background-color: #d2b48c; /* Tan - slightly darker than beige for accents */
+}
+
+.border-color {
+  border-color: #d2b48c; /* Consistent border color */
+}
