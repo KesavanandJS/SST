@@ -8,6 +8,12 @@ import Products from './pages/Products';
 import Contact from './pages/Contact';
 import './App.css';
 import './responsive.css'; // Import responsive styles
+import './animations.css'; // Import animations
+import './premium-theme.css'; // Import premium theme
+// Choose one of these themes to import:
+// import './alternative-theme.css'; // Modern luxury theme
+// import './minimalist-theme.css'; // Clean minimalist theme
+// import './textured-theme.css'; // Organic textured theme
 
 function App() {
   return (

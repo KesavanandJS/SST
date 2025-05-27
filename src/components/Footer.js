@@ -5,9 +5,20 @@ import './Footer.css';
 const Footer = () => {
   return (
     <footer className="footer">
+      <div className="footer-pattern"></div>
+      
+      <div className="footer-top">
+        <div className="container">
+          <div className="footer-logo-centered">
+            <h2>Sri Saravana Textiles</h2>
+            <p className="tagline">Crafting quality since 1995</p>
+          </div>
+        </div>
+      </div>
+      
       <div className="container footer-container">
         <div className="footer-section">
-          <h3>Sri Saravana Textiles</h3>
+          <h3>About Us</h3>
           <p>Quality textiles for your needs. We pride ourselves on excellence and craftsmanship.</p>
         </div>
         
@@ -32,7 +43,7 @@ const Footer = () => {
       
       <div className="copyright">
         <div className="container">
-          <p> @ Sri Saravana Textiles. </p>
+          <p> © {new Date().getFullYear()} Sri Saravana Textiles. All Rights Reserved</p>
         </div>
       </div>
     </footer>
